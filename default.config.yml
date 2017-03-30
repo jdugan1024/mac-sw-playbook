@@ -2,32 +2,16 @@
 downloads: ~/.ansible-downloads/
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
-  - autoconf
-  - bash-completion
-  - chromedriver
-  - doxygen
-  - gettext
-  - gifsicle
+  # prefer brew ansible
+  - ansible
+  # development
   - git
-  - go
-  - gpg
-  - hub
-  - httpie
-  - iperf
-  - libevent
-  - sqlite
-  - mcrypt
-  - nmap
+  - python
+  - fabric
   - npm
-  - nvm
-  - ssh-copy-id
-  - cowsay
-  - readline
+  # nice to have
   - openssl
   - pv
-  - wget
-  - wrk
 
 homebrew_taps:
   - homebrew/core
@@ -36,21 +20,18 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - docker
+  # essentials
   - dropbox
-  # - fing # Download link keeps getting changed, d'oh!
   - firefox
   - google-chrome
-  - handbrake
+  - zoom
+  # extras
   - licecap
-  - limechat
-  - macvim
-  - nvalt
-  - sequel-pro
   - skitch
+  # editor
+  - emacs
   - slack
-  - sublime-text
-  - transmit
+  # basic dev
   - vagrant
   - virtualbox
 
