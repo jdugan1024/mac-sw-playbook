@@ -14,7 +14,6 @@ extra things like installing dotfiles.
 
   1. Install XCode.  Easiest way to do this is to run git -- the system will prompt to install XCode.
   1. Run the `bootstrap.sh` script which bootstraps the system to have Ansible.
-  1. Run `$ ansible-galaxy install -r requirements.yml` inside this directory to install required Ansible roles.
   1. Run `ansible-playbook main.yml -i inventory -K` inside this directory. Enter your account password when prompted.
 
 > Note: If some Homebrew commands fail, you might need to agree to XCode's license or fix some other Brew issue. Run `brew doctor` to see if this is the case.
