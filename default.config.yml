@@ -25,6 +25,8 @@ homebrew_cask_apps:
   - firefox
   - google-chrome
   - zoom
+  - 1password
+  - iterm2
   # extras
   - licecap
   - skitch
