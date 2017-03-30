@@ -12,7 +12,6 @@
 
   roles:
     - geerlingguy.homebrew
-    - geerlingguy.dotfiles
     - name: geerlingguy.mas
       when: mas_installed_apps
 
